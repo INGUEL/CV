@@ -1,0 +1,115 @@
+h1 {
+	color:blue;
+	text-align:center;
+}
+.Fond_Industriel{
+
+	background-image:url(Fond_Industriel.jpg);
+	background-attachment: fixed;
+	margin: auto;
+
+}
+
+.page{
+	width: 900px;
+	margin: auto;
+	padding : 20px;
+	font-family: Times;
+	background-color: wheat;
+}
+
+.en_tete_D {
+	height: 150px;
+	width: 380px;
+	border-left: solid 2px red;
+	float: left;
+	padding-left: 15px;
+}
+.en_tete_G {
+	height: 150px;
+	width: 300px;
+	border-left: solid 2px red;
+	float: left;
+	padding-left: 15px;	
+}
+
+.txt_entete{
+	color: black;
+	font-size: 14px;
+}
+.titre_cv{
+	font-weight: bold;
+    font-size: 20px;
+    text-align:center;
+}
+
+.photo{
+	float: right;
+}
+
+.titre_unite{
+	margin-top: 30px;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px;
+	text-align:center;
+	border: solid 2px red;
+}
+
+
+.ph_entete{
+	background-position: top;
+	height: 150px;	
+	
+}
+
+.annee{
+	font-weight: bold;
+	margin-left: 15px;
+	float: left;
+	border-bottom: solid 2px black;
+}
+
+.unite{
+	margin-left: 90px;
+	border-bottom: solid 2px white;
+	border-left: solid 1px gray;
+	padding-left: 10px;
+
+}
+.nom_etabs{
+	font-weight: bold;
+	float: left;
+	margin-left: 10px
+}
+.adresse{
+	margin-left: 380px;
+}
+.unite_exp{
+	margin-left: 130px;
+	/*padding-left: 130px;*/
+	/*float: left;*/
+	border-bottom: solid 5px white;
+	border-left: solid 1px gray;
+	padding-left: 10px;
+}
+
+.onglet{	
+	margin: auto;
+	/*margin-top: 30px ;*/
+	width: 900px;
+	text-align: center;
+	padding-top: 30px ;
+	padding-bottom: 20px;
+}
+
+.mdl-slider__container {
+    background-color: wheat !important; /* Met le fond de la barre en blanc */
+    position: fixed !important; /* Permet de définir la position de la barre comme fixe */
+    top: 0; /* Défini la postion de la barre en haut */
+    z-index: 200; /* Une valeur élevée ici permet de s'assurer que l'élément est au dessus des autres */
+    width: 100vw; /* Défini la largeur de l'élément comme étant 100% de la largeur de l'écran */
+}
+
+
+
